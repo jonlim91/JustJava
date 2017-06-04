@@ -34,7 +34,7 @@ import static android.R.id.message;
  * This app displays an order form to order coffee.
  */
 public class MainActivity extends AppCompatActivity {
-    int quantity = 0;
+    int quantity = 1;
     private CompoundButton checkbox;
     int duration = Toast.LENGTH_SHORT;
     Toast toast;
@@ -153,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
         priceMessage += "\n" + getString(R.string.total_price, priceOfOrder);
         priceMessage += "\n" + getString(R.string.thank_you);
         return priceMessage;
+
     }
 
 }
