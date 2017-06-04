@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="toppings">Ingredientes</string>
+
+    <!--
+            Displays whether customer added chocolate to their order.
+            Will be shown in the format of "Add chocolate? true" where true indicates the order includes chocolate. [CHAR LIMIT=NONE]
+        -->
+    <string name="add_chocolate">Agrega chocolate? <xliff:g id="chocolate" example="true">%s</xliff:g></string>
+
+    <!--
+        Displays whether customer added whipped cream to their order.
+        Will be shown in the format of "Add whipped cream? true" where true indicates the order includes whipped cream. [CHAR LIMIT=NONE]
+    -->
+    <string name="add_whipped_cream">Agrega la crema batida? <xliff:g id="whipped_cream" example="true">%s</xliff:g></string>
+
+
+    <string name="chocolate">Chocolate</string>
+    <string name="customer_name">Nombre</string>
+    <string name="max_order_toast">No puede pedir más de 100 cafés</string>
+    <string name="min_order_toast">No se puede pedir menos de 1 café</string>
+    <string name="order">Orden</string>
+    <string name="quantity">Cantida</string>
+    <string name="thank_you">Gracias!</string>
+    <string name="whipped_cream">La crema batida</string>
+    <!--
+        Subject line text for email generated order summary.
+        Will be shown in the format of "JustJava orden para Juan" where Jon is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="justjava_order">JustJava orden para <xliff:g id="name" example="Juan">%s</xliff:g></string>
+
+    <!--
+        Displays the total order price. Will be shown in the format of "Total: $15" where 15 is the price total. [CHAR LIMIT=NONE]
+    -->
+    <string name="total_price">Total: $<xliff:g id="price" example="15">%d</xliff:g></string>
+
+    <!--
+        Name for the order summary. Will be shown in the format of "Name: Jon" where Jon is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Nombre: <xliff:g id="name" example="Jon">%s</xliff:g></string>
+
+    <!--
+       Displays the quantity in the order summary. Will be shown in the format of "Quantity: 2" where 2 is the order total. [CHAR LIMIT=NONE]
+   -->
+    <string name="order_quantity">Cantida: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+
+</resources>
